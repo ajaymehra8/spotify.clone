@@ -14,7 +14,7 @@ body{
 button{
 border:none;
 color:white;
-  background-color:none;
+  background-color:black;
 }
 nav{
   background-color:black;
@@ -236,6 +236,9 @@ text-align:center;
   .media-icn{
   font-size:1.8rem;
 }
+  button{
+  background-color:none;
+  }
   .media-btn{
     display:inherit;
   }
