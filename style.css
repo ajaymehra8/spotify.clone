@@ -11,6 +11,8 @@ body{
  
 
 }
+button{
+border:none;}
 nav{
   background-color:black;
   color:white;
