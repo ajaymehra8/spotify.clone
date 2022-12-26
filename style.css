@@ -237,7 +237,7 @@ text-align:center;
   font-size:1.8rem;
 }
   button{
-
+background-color:none;
   }
   .media-btn{
     display:inherit;
