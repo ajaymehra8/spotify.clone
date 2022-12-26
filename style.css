@@ -1,0 +1,312 @@
+*{
+  padding:0;
+  margin:0;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+body{
+  font-family: 'Roboto', sans-serif;
+  overflow-x:hidden;
+ 
+
+}
+nav{
+  background-color:black;
+  color:white;
+  width:100%;
+  position:fixed;
+}
+.nav-head{
+margin-top:15px;
+  margin-bottom:5px;
+  margin-left:20px;
+  font-size:1.8rem;
+  font-weight:900;
+
+}
+button{
+  background-color:black;
+  color:white;
+}
+.nav-icon{
+  margin-right:10px;
+  font-size:2.5rem;
+}
+.nav-btn{
+  border:none;
+  font-size:2rem;
+  margin:0 5px;
+  margin-top:25px;
+  
+}
+.small-btn{
+  position:absolute;
+  left:400px;
+}
+.nav-btn2{
+  border:1px solid;
+  border-color:white;
+  color:red;
+  border-radius:10%;
+  padding:10px 20px;
+  letter-spacing:4px;
+  
+  margin-top:20px;
+  margin-bottom:10px;
+  position:absolute;
+  left:550px;
+ 
+  
+}
+.nav-flex{
+
+  
+  display:flex;
+
+}
+aside{
+ position:absolute;
+  background-color:black;
+min-height:1000px;
+  margin-top:60px;
+  width:250px;
+
+}
+.aside-ul{
+  margin:50px 20px 00px;
+ background-color:black;
+  
+  list-style:none;
+}
+.aside-icon{
+  font-size:2rem;
+  margin-right:10px;
+}
+.aside-link{
+  text-decoration:none;
+  color:white;
+}
+.aside-li{
+  margin-bottom:30px;
+  font-weight:500;
+  letter-spacing:2px;
+}
+.aside-img{
+  width:30px;
+  
+  margin-right:10px;
+}
+.nav-ul{
+  position:absolute;
+  list-style:none;
+  display:flex;
+  right:15px;
+  margin-top:25px;
+
+}
+.nav-li{
+  margin:10px 15px;
+ 
+}
+.list-btn{
+  font-size:1rem;
+  font-weight:600;
+  letter-spacing:2px;
+}
+.log-btn{
+  border:1px solid white;
+  border-radius:25px;
+  padding:10px 15px;
+  background-color:white;
+  letter-spacing:1px;
+  margin-top:-20px;
+  color:black;
+}
+@media(max-width:1200px){
+  .small-btn{display:none;}
+  .nav-btn2{
+    display:none;
+  }
+}
+/* main-section */
+main{
+  background-color:#191A19;
+  color:white;
+  height:100%;
+  
+
+}
+.main-head{
+     padding-left:280px;
+  padding-top:100px; 
+  padding-bottom:100px;
+}
+.main-link{
+  text-decoration:none;
+color:white;
+}
+.focus:hover{
+  text-decoration:underline;
+}
+.spoti:hover{
+text-decoration:underline;
+}
+
+.card-img{
+  width:160px;
+padding:10px 5px 10px 10px;
+}
+
+.card{
+border-radius:3%;
+width:180px;
+  
+margin-top:40px;
+  margin-left:20px;
+}
+.card:hover{
+ background-color:black;
+}
+
+.flex-box{
+  display:grid;
+ grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); 
+}
+.main-content{
+  margin-left:25px;
+width:100%;
+  margin-top:5px;
+ 
+  margin:10px 25px 10px 10px;
+}
+.card-p{
+
+  font-size:15px;
+  margin-top:10px;
+  line-height:2;
+}
+.card-h3{
+  font-size:15px;
+  letter-spacing:1px;
+}
+/* Main2 */
+.second-Main{
+margin-top:20px;
+ 
+}
+/* footer */
+.footer-div {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+background-color:#191A19;
+  border-top:1px solid white;
+  color: white;
+  text-align: center;
+}
+footer{
+
+  width:100%;
+  height:100%;
+text-align:center;
+
+}
+.footer-button{
+ margin:10px auto; 
+}
+.footer-btn{
+  font-size:20px;
+}
+/* MEDIA BTN */
+.media-btn{
+  display:none;
+  position:absolute;
+  top:10px;
+  right:5px;
+}
+.media-icn{
+  font-size:3rem;
+}
+@media(max-width:800px){
+  .media-icn{
+  font-size:1.8rem;
+}
+  .media-btn{
+    display:inherit;
+  }
+  .nav-ul{
+    display:none;
+    
+  }
+}
+.media-ul{
+  display:grid;
+  border-radius:5%;
+  background-color:black;
+  position:absolute;
+  top:24px;
+  right:0;
+}
+/* MEDIA QUERY FOR PHONES */
+@media(max-width:680px){
+  aside{
+  width:150px;
+    min-height:900px;
+    margin-top:49px;
+  }
+  aside-ul{
+  margin:50px 20px 00px;
+ background-color:black;
+  
+  list-style:none;
+}
+.aside-icon{
+  font-size:1rem;
+  margin-right:10px;
+}
+.aside-link{
+  text-decoration:none;
+  color:white;
+}
+  .aside-img{
+  width:15px;
+  
+  margin-right:10px;
+}
+
+  .aside-li{
+    font-size:10px;
+  margin-bottom:30px;
+  font-weight:100;
+  letter-spacing:1px;
+}
+  .nav-head{
+margin-top:15px;
+  margin-bottom:5px;
+  margin-left:20px;
+  font-size:1rem;
+  font-weight:900;
+
+}
+button{
+  background-color:black;
+  color:white;
+}
+.nav-icon{
+  margin-right:10px;
+  font-size:1.5rem;
+}
+  .main-head{
+     padding-left:180px;
+  padding-top:100px; 
+  padding-bottom:100px;
+}
+ 
+}
+@media(max-width:600px){
+  .card{
+    margin:20px auto;
+  }
+}
