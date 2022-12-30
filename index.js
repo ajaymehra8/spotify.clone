@@ -21,71 +21,79 @@ let audio10 = new Audio("https://pwdown.info/113604/Chori%20Ghani%20Sayani%20-%2
  // PLAYING-SOUND
 let imgMS=0;
 let bigMS=0;
+
 function makingSound(what){
   PP=0;
   double=0;
   stoP();
-soundVa=1;
    what.load();
    what.play();
    document.querySelector("."+imgMS).classList.add(imgMS+"x");
   document.querySelector(".play-btn").classList.add("play-btnx");
    document.querySelector(".pause-btn").classList.remove("pause-btnx");
     document.querySelector("."+bigMS).classList.remove("big-imgx");
-
-   document.querySelector("main").classList.toggle("mainx");
+document.querySelector("main").classList.toggle("mainx");
  document.querySelector(".footer-button").classList.add("footer-buttonx");}
 
 function sound1(){
 imgMS="pathhan-img";
 bigMS="big-img1";
-  
   makingSound(audio1);
+    soundVa=1;
 }
 function sound2(){
   imgMS="besab-img";
 bigMS="big-img2";
   makingSound(audio2);
+  soundVa=2;
 }
 function sound3(){
   imgMS="calm-img";
 bigMS="big-img3";
   makingSound(audio3);
+    soundVa=3;
 }
 function sound4(){
    imgMS="star-img";
 bigMS="big-img4";
   makingSound(audio4);
+  soundVa=4;
 }
 function sound5(){
    imgMS="king-img";
 bigMS="big-img5";
   makingSound(audio5);
+   soundVa=5;
 }
 function sound6(){
    imgMS="para-img";
 bigMS="big-img6";
   makingSound(audio6);
+  soundVa=6;
 }
 function sound7(){
    imgMS="name-img";
 bigMS="big-img7";
   makingSound(audio7);
+  soundVa=7;
 }
 function sound8(){
    imgMS="badshah-img";
 bigMS="big-img8";
   makingSound(audio8);
+   soundVa=8;
 }
 function sound9(){
    imgMS="justin-img";
 bigMS="big-img9";
   makingSound(audio9);
+   soundVa=9;
 }
 function sound10(){
    imgMS="square-img";
 bigMS="big-img10";
   makingSound(audio10);
+   soundVa=10;
 }
 
 // STOP START FROM HERE
@@ -181,4 +189,6 @@ if(soundVa==7){
      ForBack("big-img10");
  }
    double=1;
+   
+ 
 }}
