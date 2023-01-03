@@ -121,7 +121,8 @@ function sound9(){
   soundVa=9;
 }
 function sound10(){
-
+ durat=audio10;
+  duratn=durat.duration;
    imgMS="square-img";
    bigMS="big-img10";
    makingSound(audio10);
